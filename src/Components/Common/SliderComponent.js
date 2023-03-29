@@ -46,3 +46,16 @@ const SliderComponent = ({
   }
   
   export default SliderComponent;
+
+// Additional notes:
+  // Using the Stack component from MUI to stack the components vertically. 
+    // my is the shorthand for marginY [margin-top & margin-bottom]. 
+    // Using the Typography component from MUI to display the label, unit, and other data. 
+    // Using the Slider component from MUI to display the slider.
+
+  // The props are destructured and are passed to the Slider MaterialUI component
+
+  // Displaying min and max values on the slider
+    // using the Stack component from MUI to stack the components horizontally. 
+    // direction="row" is the shorthand for flex-direction: row. 
+    // justifyContent="space-between" is the shorthand for justify-content: space-between.
