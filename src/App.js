@@ -4,7 +4,7 @@ import { Container } from "@mui/system";
 import NavBar from "./Components/Navbar";
 // import Result from "./Components/Result";
 import SliderSelect from "./Components/SliderSelect";
-// import TenureSelect from "./Components/TenureSelect";
+import TenureSelect from "./Components/TenureSelect";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Container maxWidth="xl" sx={{marginTop:4}}>
         <Grid>
           <SliderSelect data={data} setData={setData} />
-          {/* <TenureSelect /> */}
+          <TenureSelect data={data} setData={setData} />
         </Grid>
         <Grid item xs={12} md={6}>
           {/* <Result /> */}
