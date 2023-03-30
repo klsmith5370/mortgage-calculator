@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 import NavBar from "./Components/Navbar";
-// import Result from "./Components/Result";
+import Result from "./Components/Result";
 import SliderSelect from "./Components/SliderSelect";
 import TenureSelect from "./Components/TenureSelect";
 
@@ -25,7 +25,7 @@ function App() {
           <TenureSelect data={data} setData={setData} />
         </Grid>
         <Grid item xs={12} md={6}>
-          {/* <Result /> */}
+          <Result data={data} />
         </Grid>
       </Container>
     </div>
